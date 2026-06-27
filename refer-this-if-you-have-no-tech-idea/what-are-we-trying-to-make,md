@@ -1,0 +1,18 @@
+You are building LexiNeMo, an Agentic Legal Compliance Copilot tailored specifically for the Indian enterprise market      
+  (BFSI, IT, Telecom).                                                                                                       
+                                                                                                                             
+  The Problem: India is rolling out massive regulatory changes (like the DPDP Act, RBI Outsourcing norms, and SEBI           
+  regulations). When a new law passes, companies currently have to manually read thousands of active vendor/client contracts 
+  to find out which clauses are now non-compliant. This takes months, costs millions, and carries huge risks of human error. 
+  Generic AI tools (like standard ChatGPT or basic RAG) fail here because they don't understand Indian legal jargon,         
+  hallucinate false legal advice, and struggle to match semantic meaning in complex legal text.                              
+                                                                                                                             
+  The Solution: You are building an automated pipeline where a user can:                                                     
+                                                                                                                             
+  1. Upload a massive, messy legal contract (PDF/DOCX).                                                                      
+  2. Select a regulation to check against (e.g., "Check against DPDP Act 2023").                                             
+  3. Run the AI, which uses a fine-tuned NVIDIA embedding model and a multi-agent system to:                                 
+      • Identify every relevant clause in the contract.                                                                      
+      • Cross-reference it with the actual text of the Indian law.                                                           
+      • Output a compliance gap report showing exactly what violates the law and suggesting a legally sound rewrite.         
+  4. Result: What used to take a lawyer weeks now takes 2 minutes.
