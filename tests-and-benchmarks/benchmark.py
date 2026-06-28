@@ -1,7 +1,8 @@
 import sys
 from pathlib import Path
 
-sys.path.append(str(Path(__file__).parent.parent))
+# Add project code directory to path
+sys.path.append(str(Path(__file__).parent.parent / "code"))
 
 from src.retrieval.hybrid_search import hybrid_search
 
